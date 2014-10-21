@@ -1,0 +1,4 @@
+html {
+-webkit-user-select: none;
+/*-webkit-app-region: drag;*/ /*frame:false时, 鼠标点击内容可以拖动窗口*/
+}

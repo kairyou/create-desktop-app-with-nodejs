@@ -1,0 +1,20 @@
+{
+	"name": "nw-demo" //APP的名称
+	, "main": "index.html" //APP的入口
+	, "version": "0.1.0"
+	, "keywords": ["demo", "node-webkit"] //APP的关键字，搜索APP时用到
+	, "description": "test node-webkit" //APP的描述
+	, "window": { //APP的窗口属性
+		"toolbar": false //显示工具栏
+		, "icon": "link.png" //APP图标
+		// , "width": 800, "height": 500 //窗口初始化大小
+		// , "min_width": 400, "min_height": 200
+    	// , "max_width": 800, "max_height": 600
+		, "frame": true //显示外窗体(最大化/最小化/关闭)
+		// , "position": "mouse"
+	}
+	, "user-agent": "%name %ver %nwver %webkit_ver %osinfo" //可自定义APP的UA
+	/*,"webkit": {
+		"plugin": true //Flash
+	}*/
+}
